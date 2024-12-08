@@ -67,8 +67,10 @@ const handleDownloadsClick=()=>{
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>Covert to lowercase</button>
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handlereverseClick}>Reverse Text</button>
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handlecamelCaseClick}>Camel Case</button>
+        <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleremoveExtraSpaceClick}>Remove extra spaces</button>
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleclearClick}>Clear</button>
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleDownloadsClick}>Download as File</button>
+        
     
     </div>
     <div className="container my-3" style={{color: props.mode==='dark'?'white':'black'}}>
